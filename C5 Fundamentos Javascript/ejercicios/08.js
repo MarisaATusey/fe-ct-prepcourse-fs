@@ -3,6 +3,12 @@ function esNumeroEntero(numero) {
   // Verifica si este es un número entero o no.
   // Returna true si lo es, de lo contrario, retorna false.
   // Tu código:
-}
+  if (Number.Interger(numero) ){
+    return true
+  } else return false
 
+    //if (numero %2 === 0 ){
+    //return true
+  //} else return false
+}
 module.exports = esNumeroEntero;
