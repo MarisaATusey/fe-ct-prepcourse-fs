@@ -5,7 +5,7 @@ function productoEntreNúmeros(a, b) {
   // npm test m6t18.test.js
   var acumulador = 1
   for (var i = a; i <= b; i++) {
-    acumulador = acumulador * i ;
+    acumulador = acumulador * i ; //acumulador *=i; es lo mismo
     if (acumulador === -0){
       return 0
     }

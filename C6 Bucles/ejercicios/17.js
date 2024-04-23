@@ -7,6 +7,7 @@ function colors(color) {
   // Si no es ninguno de esos colores           --> "Color not found".
   // PISTA: utilizar el statement SWITCH.
   // Tu código:
+  // npm test m6t17.test.js
   switch (color) {
     case "blue":
         return "This is blue";

@@ -3,6 +3,5 @@ function devolverPrimerElemento(array) {
   // Tu código:
   return array[0];
 }
-// return array[0]
 //array.shift()
 module.exports = devolverPrimerElemento;

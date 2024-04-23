@@ -5,6 +5,7 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!".
   // Si "idioma" no es ninguno de los anteriores o es `undefined`, devuelve "Hola!".
   // Tu código:
+  // npm test m6t16.test.js
   switch (idioma) {
   case "aleman":
       return "Guten Tag!";

@@ -7,7 +7,6 @@ function obtenerDiaSemana(numero) {
   // el string "No es un dia de la semana"
   // Tu código:
 
-
 switch (numero) {
   case 1:
     return "Lunes";

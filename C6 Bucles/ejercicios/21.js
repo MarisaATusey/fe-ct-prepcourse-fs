@@ -6,13 +6,18 @@ function esPotenciaDeDos(numero) {
   // Tu código:
   // npm test m6t21.test.js
 
-  var acumulador = 1
-  while (numero %2 ===0) {
-    return true
-  } i ++; 
-  return false
+  if (numero <= 0) {
+    return false;
+  }
+
+  while (numero > 1) {
+    if (numero % 2 !== 0) {
+      return false;
+    }
+    numero = numero / 2;
+  }
+
+  return true;
 }
-return acumulador;
-esPotenciaDeDos()
 module.exports = esPotenciaDeDos;
 
