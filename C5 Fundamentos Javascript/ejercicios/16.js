@@ -6,6 +6,10 @@ function esImpar(num) {
   // 15 ---> true
   // 14 ---> false
   // Tu código:
+  // npm test M5T16.test
+  if (num % 2 !== 0) {
+    return true 
+  } else return false 
 }
 
 module.exports = esImpar;

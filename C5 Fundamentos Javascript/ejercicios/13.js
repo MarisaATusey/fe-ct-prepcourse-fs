@@ -6,6 +6,12 @@ function menosQueNoventa(num) {
   // 50 ---> true
   // 91 ---> false
   // Tu código:
+  // npm test M5T13.test 
+  if (num < 90 ) {
+    return true 
+  } else { return false 
+    
+  }
 }
 
 module.exports = menosQueNoventa;

@@ -5,6 +5,8 @@ function resta(x, y) {
   // 10, 5 ---> 5
   // 5, 5 ---> 0
   // Tu código:
+  // npm test M5T20.test
+  return x - y
 }
 
 module.exports = resta;

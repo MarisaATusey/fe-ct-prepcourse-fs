@@ -5,6 +5,8 @@ function suma(x, y) {
   // 5, 5 ---> 10
   // -5, 5 ---> 0
   // Tu código:
+  // npm test M5T19.tes
+  return x + y
 }
 
 module.exports = suma; 

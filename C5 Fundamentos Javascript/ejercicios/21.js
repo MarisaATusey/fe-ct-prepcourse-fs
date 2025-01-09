@@ -5,6 +5,9 @@ function multiplica(x, y) {
   // 10, 5 ---> 50
   // 5, 5 ---> 25
   // Tu código:
+  //  npm test M5T21.test
+
+  return x * y
 }
 
 module.exports = multiplica;

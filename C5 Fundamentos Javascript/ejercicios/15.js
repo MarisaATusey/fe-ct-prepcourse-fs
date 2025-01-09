@@ -6,6 +6,10 @@ function esPar(num) {
   // 14 ---> true
   // 15 ---> false
   // Tu código:
+  // npm test M5T15.test 
+  if (num % 2 === 0) {
+    return true 
+  } else return false 
 }
 
 module.exports = esPar;
